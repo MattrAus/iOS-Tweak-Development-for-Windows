@@ -82,8 +82,15 @@ Grab the necessary SDKs you need for development and download them.
 ## Installing Headers
 Download Headers used to hook into iOS.  
 	
-	git clone https://github.com/theos/headers.git theos/include  
-	git clone https://github.com/coolstar/iOS-9.3-SpringBoard-Headers.git theos/include  
+	git clone https://github.com/theos/headers.git $THEOS/temp  
+	mv $THEOS/temp/.git $THEOS/include/.git  
+	rm -rf $THEOS/temp  
+	  
+	git clone https://github.com/coolstar/iOS-9.3-SpringBoard-Headers.git $THEOS/temp  
+	mv $THEOS/temp/.git $THEOS/include/.git  
+	rm -rf $THEOS/temp  
+
+<sup>`/temp` is used to circumvent "non-empty directory" error.</sup>
 
 
 ## Remotely Connect to your iDevice
