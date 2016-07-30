@@ -42,20 +42,25 @@ Just copy and paste this whole block of text into **Cygwin** and let it download
 	apt-cyg install wget  
 
 
+## Setting up $THEOS Directory
+The default theos directory used throughout the rest of this guide
+
+	export THEOS=/opt/theos
+
 ## Installing Theos
 	
-	git clone https://github.com/theos/theos.git && mkdir -p theos/toolchain/windows 
+	git clone https://github.com/theos/theos.git && mkdir -p $THEOS/toolchain/windows 
 
 
 ## Installing iOSToolchain4Win
 
 ### 32-Bit System
 	
-	git clone -b master https://github.com/coolstar/iOSToolchain4Win.git theos/toolchain/windows/iphone  
+	git clone -b master https://github.com/coolstar/iOSToolchain4Win.git $THEOS/toolchain/windows/iphone  
 
 ### 64-Bit System
 	
-	git clone -b x86_64 https://github.com/coolstar/iOSToolchain4Win.git theos/toolchain/windows/iphone  
+	git clone -b x86_64 https://github.com/coolstar/iOSToolchain4Win.git $THEOS/toolchain/windows/iphone  
 
 
 ## Obtaining SDKs
@@ -63,13 +68,13 @@ Grab the necessary SDKs you need for development and download them.
 
 ### Creating SDK directory
 	
-	mkdir theos/sdks  
-	cd theos/sdks  
+	mkdir $THEOS/sdks  
+	cd $THEOS/sdks  
 
 ### Installing SDK
 *Replace* **X.X** *with the* **iOS version** *you wish to download*
 	
-	wget https://sdks.website/dl/iPhoneOSX.X.sdk.tbz2  
+	wget https://sdks.website/dl/iPhoneOSX.X.sdk.tbz2
 	
 <sup>Check out [sdks.website](https://sdks.website) for available SDKs.</sup>
 
