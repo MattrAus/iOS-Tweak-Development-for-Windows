@@ -71,7 +71,7 @@ Grab the necessary SDKs you need for development and download them.
 	
 	wget https://sdks.website/dl/iPhoneOSX.X.sdk.tbz2  
 	
-<sup>Check out [sdks.website](https://sdks.website) for available SDKs./</sup>
+<sup>Check out [sdks.website](https://sdks.website) for available SDKs.</sup>
 
 ### Extracting SDK
 *Replace* **X.X** *with the* **iOS version** *you wish to extract*
