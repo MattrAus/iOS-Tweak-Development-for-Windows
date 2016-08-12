@@ -49,7 +49,7 @@ The default theos directory used throughout the rest of this guide
 
 ## Installing Theos
 	
-	git clone https://github.com/theos/theos.git && mkdir -p $THEOS/toolchain/windows 
+	git clone --recursive https://github.com/theos/theos.git && mkdir -p $THEOS/toolchain/windows 
 
 
 ## Installing iOSToolchain4Win
