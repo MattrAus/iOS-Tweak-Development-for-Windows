@@ -101,7 +101,7 @@ Download Headers used to hook into iOS.
 
 
 ## Remotely Connect to your iDevice
-These commands put the echo in your .bash_profile (Default: `C:\cygwin\home\%user%\.bash_profile`).  
+These commands put the export lines into your .bash_profile (Default: `C:\cygwin\home\%user%\.bash_profile`).  
 	
 	echo 'export THEOS=/opt/theos' >> ./.bash_profile  
 	echo 'export THEOS_DEVICE_IP=XXX.XXX.XXX.XXX THEOS_DEVICE_PORT=22' >> ./.bash_profile  
