@@ -55,10 +55,12 @@ The default theos directory used throughout the rest of this guide
 ## Installing iOSToolchain4Win
 
 ### 32-Bit System
+	<sup>Only supports up to **iOS 8.4 SDK** with armv7 *(no support for arm64)*.</sup>
 	
 	git clone -b master https://github.com/coolstar/iOSToolchain4Win.git $THEOS/toolchain/windows/iphone  
 
 ### 64-Bit System
+	<sup>Supports up to **iOS 9.3 SDK** with armv7 and arm64. *(possibly iOS 10 SDK)*</sup>
 	
 	git clone -b x86_64 https://github.com/coolstar/iOSToolchain4Win.git $THEOS/toolchain/windows/iphone  
 
