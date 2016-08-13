@@ -49,10 +49,12 @@ The default theos directory used throughout the rest of this guide
 
 ## Installing Theos
 	
-	git clone --recursive https://github.com/theos/theos.git && mkdir -p $THEOS/toolchain/windows 
+	git clone --recursive https://github.com/theos/theos.git $THEOS/
 
 
 ## Installing iOSToolchain4Win
+
+	mkdir -p $THEOS/toolchain/windows  
 
 ### 32-Bit System
 Only supports up to **iOS 8.4 SDK** with armv7 *(no support for arm64)*.
