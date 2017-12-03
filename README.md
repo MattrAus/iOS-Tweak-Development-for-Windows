@@ -79,6 +79,7 @@ Grab the necessary SDKs you need for development and download them.
 *Replace* **X.X** *with the* **iOS version** *you wish to download*
 	
 wget ~~https://sdks.website/dl/iPhoneOSX.X.sdk.tbz2~~
+
 	wget http://resources.airnativeextensions.com/ios/iPhoneOSX.X.sdk.zip
 	
 <sup>Check out ~~[sdks.website](https://sdks.website)~~ [airnativeextensions.com](http://resources.airnativeextensions.com/ios/) for available SDKs.</sup>
