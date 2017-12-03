@@ -78,14 +78,15 @@ Grab the necessary SDKs you need for development and download them.
 ### Installing SDK
 *Replace* **X.X** *with the* **iOS version** *you wish to download*
 	
-	wget https://sdks.website/dl/iPhoneOSX.X.sdk.tbz2
+	wget ~~https://sdks.website/dl/iPhoneOSX.X.sdk.tbz2~~
+	wget http://resources.airnativeextensions.com/ios/iPhoneOSX.X.sdk.zip
 	
-<sup>Check out [sdks.website](https://sdks.website) for available SDKs.</sup>
+<sup>Check out ~~[sdks.website](https://sdks.website)~~ [airnativeextensions.com](http://resources.airnativeextensions.com/ios/) for available SDKs.</sup>
 
 ### Extracting SDK
 *Replace* **X.X** *with the* **iOS version** *you wish to extract*
 	
-	tar xvf iPhoneOSX.X.sdk.tbz2 
+	tar xvf iPhoneOSX.X.sdk.zip
 
 
 ## Installing Headers
