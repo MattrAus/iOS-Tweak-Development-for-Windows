@@ -14,7 +14,7 @@ A simple guide on how to setup and configure your windows environment for develo
 
 Click on **lynx** once, and click **next**, let it download and install.
 
-*Create icon on Desktop* for ease-of-access to **Cygwin**.
+*Create icon on Desktop* as we will need to run **Cygwin as Administrator**.
 
 
 ## Installing Additional Cygwin Packages  
@@ -22,6 +22,9 @@ After installing *lynx*, we can now install other packages much easier.
 
 
 ### Install apt-cyg
+
+**Open Cygwin Terminal as Administrator**
+
 Put the following code into Cygwin.
 
 	lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg  
@@ -40,6 +43,7 @@ Just copy and paste this whole block of text into **Cygwin** and let it download
 	apt-cyg install perl  
 	apt-cyg install python  
 	apt-cyg install wget  
+	apt-cyg install unzip	
 
 
 ## Setting up $THEOS Directory
@@ -87,7 +91,8 @@ Grab the necessary SDKs you need for development and download them.
 ### Extracting SDK
 *Replace* **X.X** *with the* **iOS version** *you wish to extract*
 	
-	tar xvf iPhoneOSX.X.sdk.zip
+~~tar xvf iPhoneOSX.X.sdk.zip~~
+	unzip iPhoneOSX.X.sdk.zip
 
 
 ## Installing Headers
