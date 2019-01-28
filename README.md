@@ -92,6 +92,7 @@ Grab the necessary SDKs you need for development and download them.
 *Replace* **X.X** *with the* **iOS version** *you wish to extract*
 	
 ~~tar xvf iPhoneOSX.X.sdk.zip~~
+
 	unzip iPhoneOSX.X.sdk.zip
 
 
